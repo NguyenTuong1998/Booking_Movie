@@ -1,0 +1,112 @@
+footer {
+  background-color: #000;
+
+  .footer-top {
+    padding-bottom: 3rem;
+    .item {
+      display: flex;
+      width: 100%;
+      .col {
+        padding-left: 0;
+        a {
+          display: block;
+          color: #fff;
+          font-size: 0.9rem;
+          text-decoration: none;
+          opacity: 0.7;
+          &:hover {
+            opacity: 1;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    h1 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: #fff;
+    }
+    .social {
+      display: flex;
+
+      .item-social {
+        margin-right: 1rem;
+        i {
+          color: #fff;
+          font-size: 1.5rem;
+          padding-right: 1rem;
+          opacity: 0.7;
+          cursor: pointer;
+        }
+      }
+    }
+    .item-logo {
+      img {
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        background-color: #fff;
+        &:hover {
+          opacity: 0.7;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .hrFooter {
+    border: 0.5px solid #4a4a4a;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .footer-bottom {
+    padding-bottom: 1rem;
+    color: #fff;
+    position: relative;
+    .img {
+      position: absolute;
+      top: 0;
+      right: 10%;
+      img {
+        width: 80px;
+      }
+    }
+    img {
+      width: 100px;
+      height: auto;
+      border-radius: 0.5rem;
+      display: block;
+      align-items: flex-end;
+    }
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      line-height: 0.7rem;
+      font-size: 0.8rem;
+      opacity: 0.6;
+    }
+    span {
+      color: #fb4226;
+      font-weight: 650;
+      &:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
+    }
+  }
+  .back_to_top {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: orange;
+
+  }
+}

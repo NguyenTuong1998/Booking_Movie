@@ -1,0 +1,16 @@
+.listCinema {
+    margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .itemCinema {
+    img {
+      height: 4rem;
+      width: 4rem;
+      margin-left: 2.5rem;
+    }
+  }
+  .tab-bottom{
+      display: block !important;
+  }
+}

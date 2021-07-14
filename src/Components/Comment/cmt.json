@@ -1,0 +1,65 @@
+[
+    {
+        "comment": "Phim này hay lắm, rất đáng để coi!",
+        "rating": 9,
+        "user": "Đạt Mập"
+    },
+    {
+        "comment": "Kết phim hụt hẫng, khó hiểu, phim hơi nhạt, mọi người cân nhắc trước khi coi phim!",
+        "rating": 5,
+        "user": "Tường Đẹp Trai"
+    },
+    {
+        "comment": "Phim cũng bình thường, không có gì đáng để chú ý, cốt chuyện không đặc săc, diễn viên cũng không khủng",
+        "rating": 7,
+        "user": "Đạt Ngáo"
+    },
+    {
+        "user": "Kiên Trần",
+        "rating": 9,
+        "comment": "Tuyệt vời ! ",
+        "avatar": "https://loremflickr.com/320/240/dog"
+    },
+    {
+        "user": "Tường Nguyễn",
+        "rating": 5,
+        "comment": "Phim nhạt ",
+        "avatar": "https://loremflickr.com/g/320/240/paris"
+    },
+    {
+        "user": "Nhật Tường",
+        "rating": 10,
+        "comment": "Phim hay xuất sắc, cho 10 điểm ♥ ",
+        "avatar": "https://loremflickr.com/320/240/brazil,rio"
+    },
+    {
+        "user": "Captian American",
+        "rating": 7,
+        "comment": "Nói chung xem cho vui cũng được ",
+        "avatar": "https://vtv1.mediacdn.vn/thumb_w/650/2021/1/15/chris-evans-1610680034155432641563.jpg"
+    },
+    {
+        "user": "Thor",
+        "rating": 5,
+        "comment": "Cái kết không có hậu",
+        "avatar": "https://gamek.mediacdn.vn/133514250583805952/2020/2/8/photo-1-15810949175856144101.jpg"
+    },
+    {
+        "user": "Spider Man",
+        "rating": 8,
+        "comment": "Chưa coi nhưng thích đánh giá :))",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxkdEJRkkBp2Cbk-USkE_dU07j-DFDOn4lA&usqp=CAU"
+    },
+    {
+        "user": "Yasuo",
+        "rating": 1,
+        "comment": "Death is like the wind – always by my side.",
+        "avatar": "https://store-images.s-microsoft.com/image/apps.28411.13510798887593857.411c7070-8254-4bc7-9822-93212e9b3eaa.d5650289-0ad1-4560-ac30-38a18a1847bb"
+    },
+    {
+        "user": "Yone",
+        "rating": 9,
+        "comment": "Hasagiiiiii",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_beoU47e2Nc6rkVy4QtyAnzARMK1apIe5vQ&usqp=CAU"
+    }
+]

@@ -1,0 +1,60 @@
+.SignIn {
+  background-image: url("../../../asset/bg_app.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .MuiContainer-maxWidthXs {
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    .makeStyles-paper-1 {
+      margin-top: 10px;
+      .makeStyles-paper-21 {
+        margin-top: 0;
+      }
+    }
+    .close {
+      position: absolute;
+      top: 8px;
+      right: 9px;
+      color: #000;
+      opacity: 1; 
+    }
+  }
+}
+.SignUp {
+  background-image: url("../../../asset/bg_app.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .MuiContainer-maxWidthXs {
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    .makeStyles-paper-1 {
+      margin-top: 10px;
+      .makeStyles-paper-21 {
+        margin-top: 0;
+      }
+    }
+    .close {
+      position: absolute;
+      top: 8px;
+      right: 9px;
+      color: #000;
+      opacity: 1; 
+    }
+  }
+}

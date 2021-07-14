@@ -1,0 +1,23 @@
+@import "./Helper/variables";
+@import "./Helper/mixin";
+@import "./base/reset";
+
+
+@import "./Components/Loading/style.scss";
+@import "./Components/Header/style.scss";
+@import "./Components/SignUp/style.scss";
+@import "./Components/Banner/style.scss";
+@import "./Components/Oder/style.scss";
+@import "./Components/ListMovie/style.scss";
+@import "./Components/ShowTime/showtime";
+@import "./Components/News//style.scss";
+@import "./Components/applicaton/style.scss";
+@import "./Components/Detail/style.scss";
+@import "./Components/Footer/style.scss";
+@import "./Components/Booking/style.scss";
+@import "./Components/Info/style.scss";
+@import "./Components/Admin/menu/style.scss";
+@import "./Components/Admin/UserManger/style.scss";
+@import "./Components/resposive/style.scss";
+@import "./Components/PageNotFound/style.scss";
+

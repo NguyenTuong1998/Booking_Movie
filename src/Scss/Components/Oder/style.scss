@@ -1,0 +1,109 @@
+.container {
+  .buyticket {
+    margin: 1rem 0;
+
+    .booking {
+      justify-content: space-between;
+      .movie {
+        padding: 0.1rem 15rem 0.1rem 0;
+        border: 1px transparent #c5c5c5;
+        border-radius: 0.3rem;
+        background-color: #c5c5c5;
+        position: relative;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+        -moz-box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        button {
+          font-weight: 500;
+          color: #000;
+        }
+        .dropdown-toggle::after {
+          position: absolute;
+          top: 50%;
+          left: 17rem;
+        }
+      }
+      .location {
+        border: 1px transparent #fff;
+        background-color: #c5c5c5;
+        padding: 0.1rem 4rem 0.1rem 0;
+        border-radius: 0.3rem;
+        position: relative;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+        -moz-box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        button {
+          color: #000;
+        }
+        .dropdown-toggle::after {
+          position: absolute;
+          top: 50%;
+          left: 5.5rem;
+        }
+      }
+      .date-seeing {
+        border: 1px transparent #c5c5c5;
+        background-color: #c5c5c5;
+        padding: 0.1rem 4rem 0.1rem 0;
+        border-radius: 0.3rem;
+        position: relative;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+        -moz-box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        button {
+          color: #000;
+        }
+        .dropdown-toggle::after {
+          position: absolute;
+          top: 50%;
+          left: 8.5rem;
+        }
+      }
+      .time {
+        border: 1px transparent #c5c5c5;
+        background-color: #c5c5c5;
+        padding: 0.1rem 4rem 0.1rem 0;
+        border-radius: 0.3rem;
+        position: relative;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+        -moz-box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        button {
+          color: #000;
+        }
+        .dropdown-toggle::after {
+          position: absolute;
+          top: 50%;
+          left: 8.5rem;
+        }
+      }
+
+      .bookin {
+        padding: 0.5rem 2rem;
+        background-color: #000;
+        color: orange !important;
+        border: none !important;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+        -moz-box-shadow: 0 8px 6px -6px black;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        transform: scale(1);
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #000;
+        &:hover {
+          transform: scale(0.95);
+        }
+        &:active {
+          box-shadow: none !important;
+        }
+      }
+      button {
+        font-weight: 500;
+        position: relative;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

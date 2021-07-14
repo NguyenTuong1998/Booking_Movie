@@ -1,0 +1,88 @@
+.MuiAppBar-colorPrimary {
+  background: orange !important;
+}
+
+.addUser .add {
+  position: absolute;
+  z-index: 9;
+  top: 4%;
+  right: 28%;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  color: #000;
+  background-color: orange;
+}
+
+.addUser .add:hover {
+  opacity: 0.8;
+}
+
+.addMovie .add {
+  position: absolute;
+  z-index: 9;
+  top: 1.7%;
+  right: 28%;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  color: #000;
+  background-color: orange;
+}
+
+.addMovie .add:hover {
+  opacity: 0.8;
+}
+
+#addUserModal {
+  z-index: 1202;
+}
+
+#addMovieModal {
+  z-index: 1202;
+}
+
+.swal2-container {
+  z-index: 1300;
+}
+
+.ReactModal__Body--open .ReactModalPortal .ReactModal__Overlay {
+  z-index: 1210;
+  background-color: rgba(14, 20, 19, 0.7) !important;
+}
+
+.ReactModal__Body--open .ReactModalPortal .ReactModal__Overlay .ReactModal__Content {
+  border: none !important;
+  background: none !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 39rem;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  padding: 1rem 0 !important;
+  background-color: #fff !important;
+}
+
+.ReactModal__Body--open .ReactModalPortal .ReactModal__Overlay .ReactModal__Content span {
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem !important;
+  text-align: center;
+  line-height: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  color: #000;
+  top: 1%;
+  right: 0;
+  opacity: 0.7;
+  background-color: #fff;
+}
+
+.ReactModal__Body--open .ReactModalPortal .ReactModal__Overlay .ReactModal__Content span:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.menuAdmin {
+  z-index: 99;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .active {
+    position: relative;
+    display: block;
+    &::after {
+      content: "";
+      width: 5px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: linear-gradient(to bottom, #ec7532, #fbbd61);
+      // transition: 0.3s ease-in-out;
+    }
+  }
+}

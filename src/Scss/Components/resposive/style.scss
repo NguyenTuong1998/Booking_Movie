@@ -1,0 +1,341 @@
+@media screen and (max-width: 1200px) {
+  .buyticket {
+    width: 800px;
+    .movie {
+      .dropdown-toggle {
+        &::after {
+          margin-left: 8rem !important;
+        }
+      }
+    }
+    .location {
+      .dropdown-toggle {
+        &::after {
+          margin-left: 2rem !important;
+        }
+      }
+    }
+    .date-seeing {
+      .dropdown-toggle {
+        &::after {
+          margin-left: 2rem !important;
+        }
+      }
+    }
+    .time {
+      .dropdown-toggle {
+        &::after {
+          margin-left: 2rem !important;
+        }
+      }
+    }
+  }
+  .movielist {
+    .tab-content {
+      .slick-slider {
+        button.slick-prev.slick-arrow {
+          display: none !important;
+        }
+        button.slick-next.slick-arrow {
+          display: none !important;
+        }
+      }
+    }
+  }
+  .News {
+    .newTop {
+      .item {
+        p {
+          margin-top: 1rem !important;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      .item-logo {
+        .none {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .vbox-close {
+    top: 25% !important;
+    right: 15% !important;
+  }
+  .News {
+    .newTop {
+      .item {
+        h1 {
+          font-size: 1rem;
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 0.9rem !important;
+        }
+        .icon {
+          margin-top: 1rem;
+        }
+      }
+    }
+    .newBottom {
+      .item {
+        h1 {
+          font-size: 1rem !important;
+          font-weight: 650 !important;
+        }
+        p {
+          margin-top: 0.5rem !important;
+          font-size: 0.7rem;
+          height: 40px !important;
+        }
+      }
+      .newRight {
+        .row {
+          margin-bottom: 0.5rem !important;
+          margin-left: 0;
+        }
+        img {
+          width: 15% !important;
+        }
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+  .dowload {
+    height: 70rem !important;
+    .item {
+      text-align: center;
+      position: relative;
+      top: 35%;
+      left: 0;
+      font-size: 0.9rem;
+    }
+    .silder {
+      .img-iphone {
+        position: relative;
+        top: 15%;
+        left: 25%;
+        .owl-carousel {
+          position: absolute;
+          width: 94%;
+          left: 3%;
+          top: 36% !important;
+          border-radius: 2.5rem;
+          overflow: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      h1 {
+        display: none;
+      }
+      .item {
+        .col:first-child {
+          display: none;
+        }
+        .col:last-child {
+          display: flex;
+          width: auto;
+          margin-top: 1rem;
+          a {
+            display: block;
+            margin-left: 1rem;
+          }
+        }
+      }
+      .item-logo {
+        display: none;
+      }
+      .item-social:first-child {
+        display: none;
+      }
+      .item-social:last-child {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        text-align: center !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buyticket {
+    display: none;
+  }
+  .vbox-close {
+    top: 32% !important;
+    right: 0 !important;
+  }
+
+  .News {
+    .newTop {
+      .item {
+        h1 {
+          font-size: 1.2rem !important;
+          margin-bottom: 0;
+        }
+        p {
+          padding-top: 0.8rem;
+          margin: 0 !important;
+          font-size: 1rem !important;
+        }
+        .icon {
+          margin-top: 1rem;
+        }
+      }
+    }
+    .newBottom {
+      .item {
+        h1 {
+          font-size: 1rem !important;
+          font-weight: 500;
+        }
+        p {
+          font-size: 0.9rem;
+          margin: 0 !important;
+        }
+        .icon {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  .lichChieu .lichChieu__content .lichChieu__LogoRap .nav .nav-link .logoRap__item{
+      width: 40px;
+  }
+  .dowload {
+    height: 65rem;
+    .silder {
+      .img-iphone {
+        position: relative;
+        top: 20%;
+        left: 25%;
+        .owl-carousel {
+          position: absolute;
+          width: 95%;
+          left: 2.3%;
+          top: 40% !important;
+          border-radius: 2rem;
+          overflow: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      .item {
+        .col:last-child {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          left: 0%;
+        }
+      }
+      .item-social {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+      }
+      .row {
+        display: block;
+        align-items: center;
+      }
+    }
+    .hrFooter {
+      margin-top: 1rem;
+    }
+    .footer-bottom {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      .img {
+        position: relative;
+        margin-bottom: 1rem;
+        text-align: center;
+        left: 0%;
+      }
+      img {
+        display: inline-block;
+      }
+      p {
+        line-height: 1rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .News {
+    .newTop {
+      .icon {
+        margin-top: 2.5rem !important;
+      }
+    }
+    .newBottom {
+      p {
+        font-size: 0.9rem !important;
+      }
+    }
+  }
+  .dowload {
+    height: 65rem;
+    .item {
+      text-align: center;
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .silder {
+      .img-iphone {
+        position: relative;
+        top: 20%;
+        left: 25%;
+        .owl-carousel {
+          position: absolute;
+          width: 95%;
+          left: 2.5%;
+          top: 40% !important;
+          border-radius: 2rem;
+          overflow: auto;
+          height: auto;
+        }
+      }
+    }
+    footer {
+      .footer-top {
+        .item{
+          .col:last-child {
+          //   position: none;
+          // width: 50%;
+          
+        }
+        }
+      }
+      .footer-bottom {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .img {
+          position: relative;
+          margin-bottom: 1rem;
+          text-align: center;
+        }
+        img {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

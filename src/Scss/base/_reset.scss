@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* For the "inset" look only */
+  html {
+    overflow: auto;
+    scroll-behavior: smooth !important;
+    height: 350px;
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 150px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffa500;
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    
+    background-color: orange;
+  }
+}
