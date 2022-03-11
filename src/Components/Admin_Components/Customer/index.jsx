@@ -1,16 +1,15 @@
+import { ErrorMessage, Form, Formik } from "formik";
 import MaterialTable from "material-table";
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import {
-  fetchListUser,
-  deletedUser,
-  addUserAuth,
-  editUserAuth,
-} from "./modules/action";
-import * as Yup from "yup";
-import { ErrorMessage, Form, Formik } from "formik";
 import Modal from "react-modal";
-import { event } from "jquery";
+import { connect } from "react-redux";
+import * as Yup from "yup";
+import {
+  addUserAuth,
+  deletedUser,
+  editUserAuth,
+  fetchListUser,
+} from "./modules/action";
 
 class Customer extends Component {
   state = {

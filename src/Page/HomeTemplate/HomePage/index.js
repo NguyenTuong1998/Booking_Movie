@@ -17,18 +17,20 @@ import Loading from "../../Loading";
 const HomePage = (props) => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => {
+    let set = setTimeout(() => {
       setLoading(false);
     }, 1500);
+    return () => {
+      clearTimeout(set);
+    };
   }, []);
   useEffect(() => {
     props.dispatch(fetchMovieList());
-  });
-  useEffect(() => {
     props.dispatch(fetchMovieListComMing());
-  });
-  if(loading) {
-    return <Loading/>
+  }, []);
+
+  if (loading) {
+    return <Loading />;
   }
 
   return (
